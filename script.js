@@ -7,7 +7,7 @@ function generateQR() {
         alert('Please enter a value to generate a QR code.')
         return
     }
-    imgQR.setAttribute('src', 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + input.value)
+    imgQR.setAttribute('src', 'add your api' + input.value) //add your api here
 }
 
 btnGenerate.addEventListener('click', generateQR)
